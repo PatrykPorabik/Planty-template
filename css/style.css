@@ -41,6 +41,14 @@ p {
 .main-menu a {
     margin-left: 60px;
     font-weight: 700;
+    transition: 0.3s;
+    border: 3px solid #ffffff;
+    padding-bottom: 4px;
+}
+
+.main-menu a:hover {
+    border-bottom: 3px solid #000000;
+    padding-bottom: 4px;
 }
 
 .header-container {
@@ -104,4 +112,103 @@ p {
     color: #ffffff;
     background: #B8DBC9;
     border: 1px solid #B8DBC9;
+}
+
+aside.banner {
+    background-image: url(../img/bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    padding: 100px 40px 100px 60px;
+}
+
+aside .banner-text {
+    color: #ffffff;
+    font-family: "Playfair Display", sans-serif;
+
+}
+
+.peoples {
+    width: 100%;
+    font-size: 0;
+    text-align: center;
+}
+
+.title h1 {
+    font-size: 32px;
+    font-family: "Playfair Display", sans-serif;
+}
+
+.first-box,
+.second-box {
+    width: 34%;
+    display: inline-block;
+    border: 3px solid #B8DBC9;
+}
+
+.second-box {}
+
+.box-image {
+    width: 20%;
+    display: inline-block;
+}
+
+.info-box {
+    width: 69%;
+    display: inline-block;
+}
+
+.box-image img {
+    border: 3px solid #B8DBC9;
+    border-radius: 50%;
+}
+
+section.contact {
+    text-align: center;
+    position: relative;
+}
+
+.contact-form {
+    width: 34%;
+    display: inline-block;
+}
+
+.contact-banner {
+    width: 34%;
+    display: inline-block;
+}
+
+.contact-banner img {
+    position: relative;
+}
+
+.contact-banner::before {
+    content: '';
+    width: 73%;
+    height: 100%;
+    position: absolute;
+    top: 4%;
+    left: 17%;
+    border: 3px solid #B8DBC9;
+}
+
+.submit-button {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px 5px;
+    color: #ffffff;
+    background: #B8DBC9;
+    border: 1px solid #B8DBC9;
+    margin-top: 50px;
+}
+
+input,
+textarea {
+    display: block;
+}
+
+footer {
+    background-color: #B8DBC9;
 }
