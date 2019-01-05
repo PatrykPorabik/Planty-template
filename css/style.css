@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat|Muli|Playfair+Display');
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Muli|Parisienne');
 
 * {
     margin: 0;
@@ -16,11 +16,16 @@ a {
     display: inline-block;
     text-decoration: none;
     color: #000000;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Muli', serif;
 }
 
 p {
     font-family: Muli, sans-serif;
+}
+
+h1 {
+    font-size: 32px;
+    font-family: Parisienne, cursive;
 }
 
 .container {
@@ -88,6 +93,7 @@ p {
 .header-text {
     width: 50%;
     display: inline-block;
+
 }
 
 .heading {
@@ -133,13 +139,15 @@ aside.banner {
     background-position: center;
     background-repeat: no-repeat;
     height: 100%;
-    padding: 100px 40px 100px 60px;
+    padding: 150px 210px 50px 60px;
 }
 
 aside .banner-text {
     color: #ffffff;
-    font-family: "Playfair Display", sans-serif;
-
+    font-family: Parisienne, sans-serif;
+    text-align: right;
+    width: 100%;
+    display: inline-block;
 }
 
 .peoples {
@@ -150,10 +158,6 @@ aside .banner-text {
     margin-bottom: 100px;
 }
 
-.title h1 {
-    font-size: 32px;
-    font-family: "Playfair Display", sans-serif;
-}
 
 .first-box,
 .second-box {
@@ -201,6 +205,10 @@ section.contact {
     position: relative;
     width: 100%;
     vertical-align: top;
+}
+
+.contact-container {
+    text-align: center;
 }
 
 .contact-form {
