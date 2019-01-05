@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
+    font-family: Muli, sans-serif;
     font-size: 14px;
 }
 
@@ -95,6 +95,14 @@ p {
     background-repeat: no-repeat;
     height: 150px;
     width: 80%;
+    margin-bottom: 14px;
+}
+
+.heading h5 {
+    text-align: center;
+    padding-top: 110px;
+    font-size: 17px;
+    margin-left: -32px;
 }
 
 .header-description p {
@@ -112,6 +120,12 @@ p {
     color: #ffffff;
     background: #B8DBC9;
     border: 1px solid #B8DBC9;
+    transition: 0.3s;
+}
+
+.green-button:hover {
+    color: #B8DBC9;
+    background: #ffffff;
 }
 
 aside.banner {
@@ -130,8 +144,10 @@ aside .banner-text {
 
 .peoples {
     width: 100%;
+    margin-top: 100px;
     font-size: 0;
     text-align: center;
+    margin-bottom: 100px;
 }
 
 .title h1 {
@@ -141,41 +157,64 @@ aside .banner-text {
 
 .first-box,
 .second-box {
-    width: 34%;
+    width: 40%;
     display: inline-block;
     border: 3px solid #B8DBC9;
 }
 
-.second-box {}
+.second-box {
+    margin-left: 10px;
+}
 
 .box-image {
-    width: 20%;
-    display: inline-block;
+    position: relative;
 }
 
 .info-box {
-    width: 69%;
     display: inline-block;
+    padding: 20px 40px;
 }
 
-.box-image img {
+.first-box .box-image img {
+    position: absolute;
     border: 3px solid #B8DBC9;
     border-radius: 50%;
+    top: -80px;
+    left: -88px;
+}
+
+.second-box .box-image img {
+    position: absolute;
+    border: 3px solid #B8DBC9;
+    border-radius: 50%;
+    top: 0px;
+    left: -88px;
+}
+
+.info-box span {
+    display: block;
+    margin-bottom: 15px;
 }
 
 section.contact {
-    text-align: center;
+    display: inline-block;
     position: relative;
+    width: 100%;
+    vertical-align: top;
 }
 
 .contact-form {
     width: 34%;
+    vertical-align: top;
     display: inline-block;
+    text-align: center;
 }
 
 .contact-banner {
     width: 34%;
     display: inline-block;
+    margin-left: 35px;
+    text-align: center;
 }
 
 .contact-banner img {
@@ -184,11 +223,12 @@ section.contact {
 
 .contact-banner::before {
     content: '';
-    width: 73%;
-    height: 100%;
+    width: 37%;
+    height: 96%;
     position: absolute;
-    top: 4%;
-    left: 17%;
+    top: -3%;
+    left: 50%;
+    z-index: 1;
     border: 3px solid #B8DBC9;
 }
 
@@ -202,6 +242,12 @@ section.contact {
     background: #B8DBC9;
     border: 1px solid #B8DBC9;
     margin-top: 50px;
+    transition: 0.3s;
+}
+
+.submit-button:hover {
+    color: #B9DBC9;
+    background: #ffffff;
 }
 
 input,
@@ -211,4 +257,37 @@ textarea {
 
 footer {
     background-color: #B8DBC9;
+    color: #ffffff;
+    margin-top: 100px;
+}
+
+.main-footer {
+    padding: 30px 0;
+    width: 940px;
+    margin: 0 auto;
+    font-size: 0;
+}
+
+.left-footer,
+.right-footer {
+    display: inline-block;
+    width: 50%;
+}
+
+.left-footer {
+    line-height: 1.5;
+}
+
+.right-footer .social-icons {
+    list-style-type: none;
+    text-align: center;
+}
+
+.social-icons li {
+    display: inline-block;
+}
+
+.social-icons li img {
+    width: 50px;
+    margin-right: 5px;
 }
