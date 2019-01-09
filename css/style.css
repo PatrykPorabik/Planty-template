@@ -300,11 +300,12 @@ footer {
     background-color: #B8DBC9;
     color: #ffffff;
     margin-top: 100px;
+    width: 940px;
 }
 
 .main-footer {
     padding: 30px 0;
-    width: 940px;
+    width: 100%;
     margin: 0 auto;
     font-size: 0;
 }
@@ -475,7 +476,9 @@ footer {
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-    ...
+    .green-button {
+        width: 90%;
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
