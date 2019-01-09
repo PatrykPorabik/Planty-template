@@ -332,3 +332,158 @@ footer {
     width: 50px;
     margin-right: 5px;
 }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 100%;
+    }
+
+    .main-menu a {
+        margin-left: 0;
+    }
+
+    .header-image {
+        display: block;
+        width: 100%;
+    }
+
+    .header-container {
+        margin: 40px 0;
+    }
+
+    .header-text {
+        display: block;
+        width: 100%;
+    }
+
+    .heading {
+        margin-top: 50px;
+        width: 90%;
+        margin: 50px auto;
+    }
+
+    .header-image::before {
+        width: 83%;
+        height: 98%;
+        top: 4%;
+        left: 12%;
+    }
+
+    .header-image img {
+        left: 34%;
+        top: 27%;
+    }
+
+    .header-description p {
+        width: 90%;
+        margin: 0 auto;
+        text-align: justify;
+    }
+
+    .heading h5 {
+        font-size: 20px;
+        margin-left: -41px;
+    }
+
+    .green-button {
+        display: block;
+        width: 90%;
+        margin: 20px auto;
+    }
+
+    aside.banner {
+        padding: 50px;
+    }
+
+    aside .banner-text {
+        text-align: center;
+    }
+
+    .experts-main .title h1 {
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .first-box,
+    .second-box {
+        width: 90%;
+        margin: 0 auto;
+        display: block;
+        margin-bottom: 50px;
+        left: 0;
+        position: relative;
+    }
+
+    .info-box {
+        display: inline-block;
+        text-align: center;
+        padding: 80px 50px 30px 50px;
+    }
+
+    .first-box .box-image img,
+    .second-box .box-image img {
+        top: -76px;
+        left: 111px;
+    }
+
+    section.contact {
+        margin-top: 50px;
+    }
+
+    .contact-form,
+    .contact-banner {
+        width: 90%;
+        vertical-align: top;
+        display: block;
+        margin: 0 auto;
+        position: relative;
+    }
+
+    .contact-banner img {
+        margin-top: 40px;
+    }
+
+    .contact-banner::before {
+        content: '';
+        width: 93%;
+        height: 92%;
+        top: 4%;
+        left: -1%;
+    }
+
+    .main-footer {
+        width: 100%;
+    }
+
+    .left-footer,
+    .right-footer {
+        display: block;
+        width: 100%;
+    }
+
+    .left-footer p {
+        text-align: center;
+        margin-bottom: 25px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    ...
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    ...
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    ...
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    ...
+}
