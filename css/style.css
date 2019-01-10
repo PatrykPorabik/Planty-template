@@ -12,6 +12,10 @@ html {
     color: #000000;
 }
 
+body {
+    width: 100vw;
+}
+
 a {
     display: inline-block;
     text-decoration: none;
@@ -471,7 +475,27 @@ footer {
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-    ...
+    .container {
+        width: 100%;
+    }
+
+    .main-menu a {
+        margin-left: 0;
+    }
+
+    .header-image,
+    .header-text {
+        display: block;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .contact-form,
+    .contact-banner {
+        display: block;
+        width: 90%;
+        margin: 0 auto;
+    }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
