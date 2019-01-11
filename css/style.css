@@ -13,7 +13,7 @@ html {
 }
 
 body {
-    width: 100vw;
+    width: 100%;
 }
 
 a {
@@ -304,7 +304,7 @@ footer {
     background-color: #B8DBC9;
     color: #ffffff;
     margin-top: 100px;
-    width: 940px;
+    width: 100%;
 }
 
 .main-footer {
@@ -322,6 +322,10 @@ footer {
 
 .left-footer {
     line-height: 1.5;
+}
+
+.left-footer p {
+    margin-left: 25%;
 }
 
 .right-footer .social-icons {
@@ -470,11 +474,12 @@ footer {
     .left-footer p {
         text-align: center;
         margin-bottom: 25px;
+        margin-left: 0;
     }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 600px) and (max-width:1024px) {
     .container {
         width: 100%;
     }
